@@ -1,0 +1,51 @@
+body {
+	background-image: url('SocialMediaBackground.jpg');
+	background-size: cover;
+}
+
+h1 {
+	margin: 10vw 10vw 0px 10vw;;
+	text-align: center;
+	font-family: sans-serif; color: hotpink; 
+	animation: ;
+}
+
+.gridContainer {
+	justify-content: center;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 225px 225px 225px;
+	grid-template-rows: 80px 80px 80px;
+	gap: 25px 20px;
+/*	row-gap: 15px;*/
+/*	column-gap: 10px;*/
+	padding: 10vw;
+
+
+}
+
+button {
+	background: linear-gradient(to right, royalblue, hotpink);
+	border-radius: 8px;
+	box-shadow: 3px 3px mediumslateblue;
+	padding: 20px;
+	font-family: sans-serif; color: whitesmoke;
+	font-size: 1.3em;
+	cursor: pointer;
+
+}
+
+.modal {
+	background-color: royalblue;
+	padding: 1em;
+	border-radius: 1em;
+	width: 400px;
+	height: 125px;
+	font-family: sans-serif; font-size: 1.1em;
+	align-content: center;
+	text-align: center; color: whitesmoke;
+}
+
+/*#lurkerModal {
+	background-color: royalblue;
+}
